@@ -2,60 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6df4a517-c077-4d73-a9a7-1242bb47960d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/AppAddressMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/AppAddressMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/ClientMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/ClientMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/FinancialRecordMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/FinancialRecordMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/LinkmanMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/LinkmanMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/LogMessageMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/LogMessageMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/OpenServiceMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/OpenServiceMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/OpenServiceRecordMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/OpenServiceRecordMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/PermissionMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/PermissionMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/RoleMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/RoleMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/StateMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/StateMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/TagMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/TagMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/TypeMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/TypeMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/UserMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/mapper/UserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/pojo/AppAddress.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/pojo/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/pojo/FinancialRecord.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/pojo/Linkman.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/pojo/LogMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/pojo/OpenService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/pojo/OpenServiceRecord.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/pojo/Permission.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/pojo/Role.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/pojo/State.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/pojo/Tag.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/pojo/Type.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AgentSystem/src/main/java/cn/agentsystem/pojo/User.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AgentSystem/src/main/java/pojo/AppAddress.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AgentSystem/src/main/java/pojo/Client.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AgentSystem/src/main/java/pojo/FinancialRecord.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AgentSystem/src/main/java/pojo/Linkman.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AgentSystem/src/main/java/pojo/LogMessage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AgentSystem/src/main/java/pojo/OpenService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AgentSystem/src/main/java/pojo/OpenServiceRecord.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AgentSystem/src/main/java/pojo/Permission.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AgentSystem/src/main/java/pojo/Role.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AgentSystem/src/main/java/pojo/State.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AgentSystem/src/main/java/pojo/Tag.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AgentSystem/src/main/java/pojo/Type.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AgentSystem/src/main/java/pojo/User.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AgentSystem/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AgentSystem/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AgentSystem/pom.xml" afterPath="$PROJECT_DIR$/../AgentSystem/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../AgentSystem/out/" />
     <ignored path="$PROJECT_DIR$/../AgentSystem/target/" />
@@ -310,7 +257,7 @@
       <option name="presentableId" value="Default" />
       <updated>1534233145666</updated>
       <workItem from="1534233156081" duration="2199000" />
-      <workItem from="1534235473064" duration="1438000" />
+      <workItem from="1534235473064" duration="1668000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <created>1534233730111</created>
@@ -319,11 +266,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534233730111</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="创建实体类、mapper文件和接口">
+      <created>1534237270613</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534237270613</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3637000" />
+    <option name="totallyTimeSpent" value="3867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -364,7 +318,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目初始化" />
+    <MESSAGE value="创建实体类、mapper文件和接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建实体类、mapper文件和接口" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
