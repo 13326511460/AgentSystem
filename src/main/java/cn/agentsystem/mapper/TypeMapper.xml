@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.cn.agentsystem.mapper.TypeMapper">
+  <resultMap id="BaseResultMap" type="cn.cn.agentsystem.pojo.Type">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="typeName" jdbcType="VARCHAR" property="typeName" />
+    <result column="typevaluesId" jdbcType="BIGINT" property="typevaluesId" />
+    <result column="typevalues" jdbcType="VARCHAR" property="typevalues" />
+    <result column="typenumerical" jdbcType="BIGINT" property="typenumerical" />
+    <result column="actualvalue" jdbcType="BIGINT" property="actualvalue" />
+    <result column="state" jdbcType="BIGINT" property="state" />
+    <result column="creationBy" jdbcType="BIGINT" property="creationBy" />
+    <result column="creationDate" jdbcType="DATE" property="creationDate" />
+    <result column="modifyBy" jdbcType="BIGINT" property="modifyBy" />
+    <result column="modifyDate" jdbcType="DATE" property="modifyDate" />
+  </resultMap>
+  
+  <sql id="Base_Column_List">
+    id, typeName, typevaluesId, typevalues, typenumerical, actualvalue, state, creationBy, 
+    creationDate, modifyBy, modifyDate
+  </sql>
+  
+</mapper>

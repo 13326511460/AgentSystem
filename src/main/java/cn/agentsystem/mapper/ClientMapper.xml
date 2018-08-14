@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.cn.agentsystem.mapper.ClientMapper">
+  <resultMap id="BaseResultMap" type="cn.cn.agentsystem.pojo.Client">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="userId" jdbcType="BIGINT" property="userId" />
+    <result column="tagId" jdbcType="BIGINT" property="tagId" />
+    <result column="clientName" jdbcType="VARCHAR" property="clientName" />
+    <result column="legalRepresentative" jdbcType="VARCHAR" property="legalRepresentative" />
+    <result column="registerTime" jdbcType="DATE" property="registerTime" />
+    <result column="companyPages" jdbcType="VARCHAR" property="companyPages" />
+    <result column="clientTypeId" jdbcType="BIGINT" property="clientTypeId" />
+    <result column="documentTypeId" jdbcType="BIGINT" property="documentTypeId" />
+    <result column="IDnumber" jdbcType="VARCHAR" property="IDnumber" />
+    <result column="country" jdbcType="VARCHAR" property="country" />
+    <result column="province" jdbcType="VARCHAR" property="province" />
+    <result column="city" jdbcType="VARCHAR" property="city" />
+    <result column="region" jdbcType="VARCHAR" property="region" />
+    <result column="companyTel" jdbcType="VARCHAR" property="companyTel" />
+    <result column="companyFax" jdbcType="VARCHAR" property="companyFax" />
+    <result column="companyAddress" jdbcType="VARCHAR" property="companyAddress" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="state" jdbcType="BIGINT" property="state" />
+    <result column="contactId" jdbcType="BIGINT" property="contactId" />
+    <result column="loginAddressId" jdbcType="BIGINT" property="loginAddressId" />
+    <result column="IOSClientdownload" jdbcType="VARCHAR" property="IOSClientdownload" />
+    <result column="IOSQRcodedownload" jdbcType="VARCHAR" property="IOSQRcodedownload" />
+    <result column="androidClientdownload" jdbcType="VARCHAR" property="androidClientdownload" />
+    <result column="androidQRcodedownload" jdbcType="VARCHAR" property="androidQRcodedownload" />
+    <result column="creationBy" jdbcType="BIGINT" property="creationBy" />
+    <result column="creationDate" jdbcType="DATE" property="creationDate" />
+    <result column="modifyBy" jdbcType="BIGINT" property="modifyBy" />
+    <result column="modifyDate" jdbcType="DATE" property="modifyDate" />
+  </resultMap>
+  
+  <sql id="Base_Column_List">
+    id, userId, tagId, clientName, legalRepresentative, registerTime, companyPages, clientTypeId, 
+    documentTypeId, IDnumber, country, province, city, region, companyTel, companyFax, 
+    companyAddress, note, state, contactId, loginAddressId, IOSClientdownload, IOSQRcodedownload, 
+    androidClientdownload, androidQRcodedownload, creationBy, creationDate, modifyBy, 
+    modifyDate
+  </sql>
+ 
+</mapper>

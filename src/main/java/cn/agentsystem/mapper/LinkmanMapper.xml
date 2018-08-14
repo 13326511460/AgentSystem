@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.cn.agentsystem.mapper.LinkmanMapper">
+  <resultMap id="BaseResultMap" type="cn.cn.agentsystem.pojo.Linkman">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="linkmanName" jdbcType="VARCHAR" property="linkmanName" />
+    <result column="linkmanPhone" jdbcType="VARCHAR" property="linkmanPhone" />
+    <result column="linkmanFax" jdbcType="VARCHAR" property="linkmanFax" />
+    <result column="linkmanEmail" jdbcType="VARCHAR" property="linkmanEmail" />
+    <result column="linkmanDuty" jdbcType="VARCHAR" property="linkmanDuty" />
+    <result column="creationBy" jdbcType="BIGINT" property="creationBy" />
+    <result column="creationDate" jdbcType="DATE" property="creationDate" />
+    <result column="modifyBy" jdbcType="BIGINT" property="modifyBy" />
+    <result column="modifyDate" jdbcType="DATE" property="modifyDate" />
+  </resultMap>
+  
+  <sql id="Base_Column_List">
+    id, linkmanName, linkmanPhone, linkmanFax, linkmanEmail, linkmanDuty, creationBy, 
+    creationDate, modifyBy, modifyDate
+  </sql>
+  
+</mapper>
